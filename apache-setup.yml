@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: web1_dev 
   name: Install the web server and start it
   become: yes
   vars:
